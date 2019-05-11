@@ -12,7 +12,7 @@ it(`GreetingView button click is working`, () => {
       <GreetingView
         time = {1}
         errorCount = {3}
-        handleClick = {clickHandler}
+        onClick = {clickHandler}
       />);
   const startButton = greetingView.find(`.welcome__button`);
   startButton.simulate(`click`, {preventDefault() {}});

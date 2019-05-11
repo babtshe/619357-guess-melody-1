@@ -8,7 +8,7 @@ it(`GreetingView renders just fine`, () => {
         <GreetingView
           time = {1}
           errorCount = {3}
-          handleClick = {jest.fn()}
+          onClick = {jest.fn()}
         />
     )
     .toJSON();

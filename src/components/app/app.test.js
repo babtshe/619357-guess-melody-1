@@ -7,6 +7,7 @@ it(`App renders just fine`, () => {
     .create(<App
       gameTime = {1}
       errorCount = {3}
+      questions = {[{}, {}]}
     />)
     .toJSON();
   expect(tree).toMatchSnapshot();
